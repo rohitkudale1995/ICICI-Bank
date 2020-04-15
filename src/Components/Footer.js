@@ -3,17 +3,17 @@ import '../assets/Css/Footer.scss'
 import Lsq from '../assets/images/Lsq Logo SVG2.svg'
 function Footer() {
     return (
-        <div className="InTouchBanner1">
-            <div className="InTouchBanner2">
-                <div className="InTouchContainer">
-                <div className="InTouchContainer1">
+        <div className="FooterBanner1">
+            <div className="FooterBanner2">
+                <div className="FooterContainer">
+                <div className="FooterContainer1">
                     <p>© 2020 Leadsquared Money</p>
                 </div>
-                <div className="InTouchContainer2">
-                <div className="InTouchContainerIn1">
+                <div className="FooterContainer2">
+                <div className="FooterContainerIn1">
                     <p>Powered by</p>
                 </div>
-                <div className="InTouchContainerIn2">
+                <div className="FooterContainerIn2">
                      <img src={Lsq}/> 
                     </div>
                 </div>
