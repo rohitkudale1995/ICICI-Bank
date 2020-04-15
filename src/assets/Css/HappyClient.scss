@@ -1,0 +1,109 @@
+.HappyClientBanner1{
+    width: 100%;
+    background-color:rgba(12, 22, 81, 1);
+    padding-bottom: 5%;
+}
+.HappyClientBanner2{
+    width: 80%;
+    margin: auto;
+    background-color:rgba(12, 22, 81, 1);
+}
+.HappyClientBannerheading{
+    margin-top: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    text-align: center;
+    font-weight: bold;
+    font-size:24px;
+    font: Bold Work Sans;
+    letter-spacing: 0px;
+    color: white;
+    opacity: 1;
+}
+.HappyClient1{
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(207, 216, 220, 1);
+    border-radius: 4px;
+opacity: 1;
+width: 30%;
+margin-left:auto;
+margin-top: auto;
+margin-bottom: auto;
+margin-right: auto;
+
+}
+.HappyClient2{
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(207, 216, 220, 1);
+    border-radius: 4px;
+    width: 30%;
+    margin-left: 5%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    }
+    .HappyClient3{
+        background: rgba(255, 255, 255, 1);
+        border: 1px solid rgba(207, 216, 220, 1);
+        border-radius: 4px;
+        width: 30%;
+        margin-left: 5%;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: auto;
+        }
+.HappyClientContainer1{
+    background-color:rgba(12, 22, 81, 1);
+    width: 100%;
+    margin-left:auto;
+    margin-top:auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    display: flex;
+    padding-bottom: 5%;
+    }
+
+        .HappyClientContainer1 img{
+            margin-top: 5%;
+            width: 60px;
+            height: 60px;
+            object-fit:cover;
+            border-radius:50%;
+        }
+      
+        .HappyClientText{
+            width: 90%;
+            margin-top: auto;
+            margin-bottom:5%;
+            margin-left: 5%;
+            margin-right: 5%;
+            color: rgba(96, 125, 139, 1);
+            text-align: center;
+            font-size:16px;
+        }
+        .HappyClientText1{
+            margin-top:-6%;
+            margin-bottom: 5%;
+            color: rgba(96, 125, 139, 1);
+            text-align: center;
+            font-size:16px;
+        }
+
+        .HappyClientText2{
+            margin-top: 5%;
+            text-align: center;
+            font-weight: 500;
+            font-size:18px;
+            text-align: center;
+            font-size:16px;
+        }
+        .HappyClientBorder{
+            margin-top: 5%;
+            border-bottom: 0.5px solid rgba(161, 174, 184, 1);
+            margin-left: 5%;
+            margin-right: 5%;
+            opacity: 1;
+        }
