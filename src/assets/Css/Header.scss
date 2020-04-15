@@ -1,0 +1,33 @@
+.HeaderDiv{
+    width: 100%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 8px #00000014;
+    opacity: 1;
+    
+}
+.HeaderDivlogo{
+    padding: 5px;
+    margin:auto;
+    width: 80%;
+    opacity: 1;
+    background-image: url("../images/icici_bank_logo_symbol.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.HeaderDivlogo ul {
+    margin-left: 70%;
+  
+}
+.HeaderDivlogo ul li{
+    display:inline-block;
+    margin: 2%;
+   
+}
+.HeaderDivlogo ul li a{
+    font: Regular 16px/34px Work Sans;
+    letter-spacing: 0px;
+    color: rgba(69, 90, 100, 1);
+    opacity: 1;
+}
+
