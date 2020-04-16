@@ -7,6 +7,7 @@
 .InTouchBanner2{
     width: 80%;
     margin: auto;
+    font-family:'roboto';
 }
 .InTouchBannerheading{
     padding-top: 5%;
@@ -16,7 +17,6 @@
     text-align: center;
     font-weight: bold;
     font-size:24px;
-    font: Bold Work Sans;
     letter-spacing: 0px;
     color: rgba(16, 29, 108, 1);
     opacity: 1;
@@ -32,17 +32,19 @@ margin-top: auto;
 margin-bottom: auto;
 margin-right: auto;
 text-align: center;
-    font-weight: 500;
-    font-size:18px;
+    font-size:16px;
     color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 .InTouchContainer{
     width: 100%;
     margin-left:auto;
-    margin-top: 5%;
+    margin-top: auto;
     margin-bottom: auto;
     margin-right: auto;
     display: flex;
+    padding-top: 2%;
     }
         .InTouchContainer img{
             margin-top: 10%;
@@ -52,7 +54,7 @@ text-align: center;
       
         .InTouchText{
             width: 90%;
-            margin-top: auto;
+            margin-top: 7%;
             margin-bottom:5%;
             margin-left: 5%;
             margin-bottom: 5%;
@@ -61,8 +63,7 @@ text-align: center;
             font-size:16px;
         }
         
-        .InTouchText1{
-           
+        .InTouchText1{ 
            
             color:rgba(69, 90, 100, 1);
             text-align: center;

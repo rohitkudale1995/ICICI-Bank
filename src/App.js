@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.css'; 
 import PlatinumChip from './Components/PlatinumChip';
 import Header from './Components/Header';
 import ApplyNow from './Components/ApplyNow';
@@ -9,15 +9,15 @@ import InTouch from './Components/InTouch';
 import Footer from './Components/Footer';
 function App() {
   return (
-    <div>
-      <Header/>
-    <PlatinumChip/>
+  <div>
+  <Header/>
+  <PlatinumChip/>
   <ApplyNow/>
   <OurFeatures/>
   <HappyClient/>
   <InTouch/>
   <Footer/>
-    </div>
+  </div>
   );
 }
 

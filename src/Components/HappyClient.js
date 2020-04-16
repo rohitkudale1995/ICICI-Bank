@@ -23,7 +23,7 @@ function HappyClient() {
                 <p className="HappyClientText2">Jonathan Vargas </p>
                 <p className="HappyClientText1">CEO, GrayGrids</p>
                 </div>
-                <div className="OurFeatures2">
+                <div className="HappyClient2">
                 <img src={p3} ></img>
                 <div className="HappyClientBorder">
                 <p className="HappyClientText">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip.</p>
@@ -31,7 +31,7 @@ function HappyClient() {
                 <p className="HappyClientText2">Jonathan Vargas </p>
                 <p className="HappyClientText1">CEO, GrayGrids</p>
                 </div>
-                <div className="OurFeatures3">
+                <div className="HappyClient3">
                 <img src={p4} ></img>
                 <div className="HappyClientBorder">
                 <p className="HappyClientText">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip.</p>
@@ -53,7 +53,7 @@ function HappyClient() {
                 <p className="HappyClientText2">Jonathan Vargas </p>
                 <p className="HappyClientText1">CEO, GrayGrids</p>
                 </div>
-                <div className="OurFeatures2">
+                <div className="HappyClient2">
                 <img src={p1} ></img>
                 <div className="HappyClientBorder">
                 <p className="HappyClientText">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip.</p>
@@ -61,7 +61,7 @@ function HappyClient() {
                 <p className="HappyClientText2">Jonathan Vargas </p>
                 <p className="HappyClientText1">CEO, GrayGrids</p>
                 </div>
-                <div className="OurFeatures3">
+                <div className="HappyClient3">
                 <img src={p2} ></img>
                 <div className="HappyClientBorder">
                 <p className="HappyClientText">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip.</p>
@@ -81,7 +81,7 @@ function HappyClient() {
                 <p className="HappyClientText2">Jonathan Vargas </p>
                 <p className="HappyClientText1">CEO, GrayGrids</p>
                 </div>
-                <div className="OurFeatures2">
+                <div className="HappyClient2">
                 <img src={p5} ></img>
                 <div className="HappyClientBorder">
                 <p className="HappyClientText">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip.</p>
@@ -89,7 +89,7 @@ function HappyClient() {
                 <p className="HappyClientText2">Jonathan Vargas </p>
                 <p className="HappyClientText1">CEO, GrayGrids</p>
                 </div>
-                <div className="OurFeatures3">
+                <div className="HappyClient3">
                 <img src={p3} ></img>
                 <div className="HappyClientBorder">
                 <p className="HappyClientText">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip.</p>

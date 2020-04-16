@@ -1,31 +1,100 @@
-.HeaderDiv{
-    width: 100%;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    box-shadow: 0px 2px 8px #00000014;
-    opacity: 1;
-}
-.HeaderDivlogo{
-    margin:auto;
-    width: 80%;
-    opacity: 1;
-    background-image: url("../images/icici_bank_logo_symbol.png");
-    background-repeat: no-repeat;
-    background-size: contain;
+
+
+.HeaderContainer2 ul li{
+    display:inline;
+    
 
 }
-.HeaderDivlogo ul {
-    margin-left: 70%;
-  
-}
-.HeaderDivlogo ul li{
-    display:inline-block;
-    margin: 2%;
+.HeaderContainer2 ul li a{
+    margin: 10%;
+    text-align: center;
    
-}
-.HeaderDivlogo ul li a{
-    font: Regular 16px/34px Work Sans;
+   font-size:100%;
     letter-spacing: 0px;
     color: rgba(69, 90, 100, 1);
     opacity: 1;
 }
 
+.HeaderBanner1{
+    width: 100%;
+     margin: auto; 
+     background-color: white;
+  
+}
+.HeaderBanner2{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+   
+}
+.HeaderContainer{
+    background-color: white;
+    width: 100%;
+    margin-left:auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    display: flex;
+    color: rgba(96, 125, 139, 1);
+  
+   
+}
+.HeaderContainer1{
+    background-color: white;
+    margin-left:0%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right:auto;
+ 
+}
+.HeaderContainer2{
+    background-color: white;
+    width: 40%;
+    margin-right: auto;
+    margin-left:auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right:0%;
+    display: flex;
+    text-align:center;
+    font-size: 16px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.HeaderContainerIn1{
+  
+    margin-left:30%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right:-15%;
+    background-color: white;
+   
+}
+.HeaderContainerIn2{
+   
+    margin-left:auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right:-15%;
+    background-color: white;
+  
+}
+.HeaderContainerIn3{
+    margin-left:auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right:auto ;
+    background-color: white;
+  
+}
+
+.HeaderContainer1  img{
+    background-color: white;
+    margin-left: 0%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width:100%;  
+    
+}
