@@ -36,7 +36,7 @@ function OurFeatures() {
                 </div>
                 <div className="OurFeatures5">
                 <img src={Group2195} ></img>
-<p>Tenure up to 20 years&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>Tenure up to 20 years&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
 <p className="OurFeaturesText">Aliquam faucibus, odio nec commodo aliquam, neque felis placerat dui, a</p>
                 </div>
                 </div>

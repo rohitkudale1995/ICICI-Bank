@@ -70,7 +70,7 @@ color: #F3951C;
 .SilverChipCard12{
     background:100%;
 }
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 920px) {
     .SilverChipBanner{
         background-color: #C8C8C8;
         background-position:bottom center;
@@ -91,10 +91,12 @@ color: #F3951C;
     .SilverChipCard12{
         display: block;
         background-image: url('../images/Group\ 2915.png');
-background-position: 100%;
+background-position: 90%;
         background-size: cover;
         height: 300px;
         width: 100%;
         margin-top: 0%;
+        
         }
+     
 }

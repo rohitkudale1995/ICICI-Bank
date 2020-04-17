@@ -21,13 +21,13 @@ class MainPage extends Component {
     }
 
     card = () => {
-    if(this.state.variant==="1" && this.state.product==="Silver"){
+    if(this.state.variant==="1" && this.state.product==="silver"){
         return ( <SilverChip/>);
-    }else     if(this.state.variant==="2" && this.state.product==="Silver") {
+    }else     if(this.state.variant==="2" && this.state.product==="silver") {
         return ( <SilverChipCard/>);
-    }else   if(this.state.variant==="1" && this.state.product==="Platinum"){
+    }else   if(this.state.variant==="1" && this.state.product==="platinum"){
         return (<PlatinumChip/>);
-    }else     if(this.state.variant==="2" && this.state.product==="Platinum") {
+    }else     if(this.state.variant==="2" && this.state.product==="platinum") {
         return ( <PlatinumChipCard/>);
     }else{
         return ( <PlatinumChipCard/>);

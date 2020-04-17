@@ -6,16 +6,29 @@ import MainPage from './Components/MainPage';
 class App extends Component {
 constructor(props){
 super(props);
+this.state={
+  product:"",
+   variant:""
+}
+}
+
+ 
+path(){
+ var pathName=window.location.href.toLowerCase();
+  var Url=pathName.split("?");  
+  if(Url.length>1){
+  var Url2=Url[1].split("&");
+  var v=Url2[1].split("=");
+  var p =Url2[0].split("=");
+  this.state.variant=v[1]
+  this.state.product=p[1]
+}
 }
 render(){
-  
-  var Url=window.location.href.split("?");
-  var Url2=Url[1].split("&");
-  var product=Url2[0].split("=");
-  var variant=Url2[1].split("=");
+this.path();
   return (
   <div>
-   <MainPage product={product[1]} variant={variant[1]}></MainPage>
+   <MainPage product={this.state.product} variant={this.state.variant}></MainPage>
   </div>
   );
 }

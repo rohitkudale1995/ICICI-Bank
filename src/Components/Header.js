@@ -1,10 +1,25 @@
-import React from 'react';
+
 import '../assets/Css/Header.scss';
 import logo from '../assets/images/icici_bank_logo_symbol.png'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
-function Header() {
+import  {faCheckCircle,faBars} from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React, { Component } from "react";
+import menu from '../assets/images/DropDown.png'
+
+
+class Header extends Component {
+  constructor(props) {
+    super(props);
+  }
+ symbol=()=> {
+    return( <FontAwesomeIcon icon={faBars} />);
+    //return (<img src={menu}></img>)
+  }
+ render() {
+
     return (
       <div className="HeaderBanner1">
       <div className="HeaderBanner2">
@@ -24,12 +39,11 @@ function Header() {
           </div>
           <div className="HeaderContainer3">
           <Navbar>
-          <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+          <NavDropdown title={this.symbol()} id="basic-nav-dropdown">
     <div  className="dropdown nav-item">
-        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.1">Product</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.2">Payments</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.3">AboutUs</NavDropdown.Item>
         </div>
         </NavDropdown>
 </Navbar>
@@ -41,4 +55,5 @@ function Header() {
       </div>
     );
   }
+}
   export default Header;

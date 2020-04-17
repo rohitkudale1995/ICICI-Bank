@@ -120,7 +120,7 @@ margin-right: auto;
             width: 12px!important;
             height: 12px!important;
           }
-          @media screen and (max-width: 620px) {
+          @media screen and (max-width: 920px) {
           
             .HappyClientBanner2{
                 width: 90%;
@@ -145,4 +145,7 @@ margin-right: auto;
                     .HappyClientContainer1{
                     padding-bottom: 20%;
                     }     
+                    .HappyClientText1{
+                    margin-top: 0%;
+                    }
         }

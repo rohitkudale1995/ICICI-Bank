@@ -80,13 +80,26 @@ nav[role="full-horizontal"] {
       }
     }
 }
-
-@media screen and (max-width: 920px) { 
+.HeaderContainer3{
+    display: none!important;
+}
+@media screen and (max-width: 620px) { 
     .HeaderContainer2{
 display: none;
     }
     .HeaderBanner2{
     width: 90%;
+    }
+    .HeaderContainer3{
+        float: right;
+        display: inline!important;
+        a{
+         color: rgba(96, 125, 139, 1);
+        }
+        .dropdown-menu{
+            width: 100px!important;
+
+        }
     }
   }
   
