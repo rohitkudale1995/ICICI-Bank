@@ -37,7 +37,7 @@ background:100%;
     opacity: 1;    
     }
 
-   
+.PlatinumChipCardCardIn1{
   
 button{
 text-align: center;
@@ -51,11 +51,11 @@ opacity: 1;
 border:none;
 width: 116px;
 height: 42px;
-margin-top: 10%;
+margin-top: 1%;
 margin-bottom: 0%;
 margin-right: 0%;
 }
-
+    }
 .PlatinumChipCardCard2{
     margin-top: 5%;
     color: #FFFFFF;
@@ -81,3 +81,50 @@ margin-right: 0%;
 color: #F3951C;
 }
 }
+@media screen and (max-width: 620px) {
+    .PlatinumChipCardBanner{
+        background-size: cover;
+        background-position: 75%;
+    }
+    .PlatinumChipCardCard1{
+    width: 90%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    }
+    .PlatinumChipCardCard1text1{
+        font-size: 24px;
+        text-align: left;
+    }
+    .PlatinumChipCardCard1text2{
+    
+    }
+    .PlatinumChipCardCardIn1{
+       
+    text-align: left;
+    width: 100%;
+    
+   
+    }
+    .PlatinumChipCardCard2{
+        display: inline;
+        width:90%;
+  
+    }
+    .PlatinumChipCardCardIn2{
+    width: 90%;
+    margin-top: 0%;
+    }
+    
+    .PlatinumChipCardCardIn1{
+        button{
+            width: 116px;
+            height: 42px;
+            margin-top: 0%;
+            margin-bottom: 0%;
+            margin-right: 0%;
+            font-size: 16px;
+            
+        }
+        }
+
+    }

@@ -26,7 +26,6 @@
 }
 .HappyClient1{
     padding: 2%;
-  
     border: 1px solid rgba(207, 216, 220, 1);
     border-radius: 4px;
 opacity: 1;
@@ -121,3 +120,29 @@ margin-right: auto;
             width: 12px!important;
             height: 12px!important;
           }
+          @media screen and (max-width: 620px) {
+          
+            .HappyClientBanner2{
+                width: 90%;
+            }
+            .HappyClient1{
+            width: 100%;
+            border-radius: 0px;
+            margin: 1%;
+            }
+            .HappyClient2{
+                width: 0%;
+                display: none;
+                 
+
+                }
+                .HappyClient3{
+                    width: 0%;
+                    display: none;
+                    
+                    }
+
+                    .HappyClientContainer1{
+                    padding-bottom: 20%;
+                    }     
+        }

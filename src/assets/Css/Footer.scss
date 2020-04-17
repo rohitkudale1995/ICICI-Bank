@@ -25,7 +25,7 @@
     margin-top: auto;
     margin-bottom: auto;
     margin-right: auto;
-  
+    font-size: 12px;
 }
 .FooterContainer2{
     width: 20%;
@@ -35,7 +35,7 @@
     margin-right: auto;
     display: flex;
    
-    
+    font-size: 12px;
 }
 .FooterContainerIn1{
     width:50%;
@@ -43,7 +43,8 @@
     margin-top: auto;
     margin-bottom: auto;
     margin-right: auto;
-    
+    font-size: 12px;
+    text-align:center;
 }
 .FooterContainerIn2{
     width: 50%;
@@ -51,11 +52,43 @@
     margin-top: auto;
     margin-bottom: auto;
     margin-right: 0%;
-   
+    font-size: 12px;
 }
 
 .FooterContainer2  img{
-   margin-top: -10%;
+   margin-top: -17%;
     width: 100px;
     height: 50px;
+}
+@media screen and (max-width: 620px) {
+
+    .FooterBanner2{
+        width: 90%;
+        margin: auto;
+       
+    }
+    .FooterContainer1{
+        width: 50%;
+        font-size: 12px;
+    }
+    .FooterContainer2{
+        font-size: 12px;
+        width: 50%;
+    display: block;
+    
+    }
+    .FooterContainerIn1{
+        width:100%;
+        text-align: right;
+        margin-bottom: -11%;
+    }
+    .FooterContainerIn2{
+        width:100%;
+        text-align: right;
+    }
+    .FooterContainer2  img{
+    margin-top: 0%; 
+    width: 109px;
+height: 19px;
+    }
 }

@@ -12,6 +12,9 @@ function SilverChip() {
                 <p className="SilverChipCard1text2"><FontAwesomeIcon icon={faCheckCircle} />  Earn PAYBACK Points on your spends except fuel</p>
                 <p className="SilverChipCard1text2"><FontAwesomeIcon icon={faCheckCircle} />  Min. 15% savings on dining at participating restaurants</p>
                 <p className="SilverChipCard1text2"><FontAwesomeIcon icon={faCheckCircle} />  Save on 1% fuel surcharge, waived off at HPCL petrol pumps</p>
+                
+                </div>
+                <div className="SilverChipCard12">
                 <button>Apply Now</button>
                 </div>
             </div>

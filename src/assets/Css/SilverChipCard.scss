@@ -29,7 +29,7 @@ background:100%;
         font-size: 48px;
         font-weight:bolder;
         letter-spacing: 0px;
-        color: rgba(41, 44, 69, 1);
+        color:#455A64;
         opacity: 1;
         margin-bottom: 0%;
     }
@@ -40,12 +40,12 @@ background:100%;
     text-align: left;
     font-size: 16px;
     letter-spacing: 0px;
-    color: rgba(69, 90, 100, 1);
+    color: #455A64;
     opacity: 1;    
     }
 
 
-  
+    .SilverChipCardCard1{ 
 button{
 text-align: center;
 font-family:'roboto';
@@ -58,7 +58,38 @@ opacity: 1;
 border:none;
 width: 116px;
 height: 42px;
-margin-top: 10%;
+margin-top: 1%;
 margin-bottom: 0%;
 margin-right: 0%;
+opacity: 1!important;
+}
+    }
+@media screen and (max-width: 620px) {
+    .SilverChipCardBanner{
+        background-size: cover;
+        background-position: 78%;
+        opacity: 0.7;
+    }
+    .SilverChipCardCard{
+    width: 90%;
+    opacity: 1;
+    }
+    .SilverChipCardCard1text1{
+        font-size: 24px;
+    }
+    .SilverChipCardCard1text2{
+    
+    }
+    .SilverChipCardCard1{
+        width: 100%;
+        margin-top: 30%;
+        background:100%;
+        opacity: 1!important;
+    }
+    .SilverChipCardCard1{ 
+        button{
+            opacity: 1!important;
+            background: rgba(243, 149, 28, 1);
+        }
+    }
 }
