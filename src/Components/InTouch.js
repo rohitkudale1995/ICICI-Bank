@@ -11,7 +11,6 @@ function InTouch() {
                 <p className="InTouchText1">Our mission is to deliver reliable, latest news and opinions</p>
                 <div className="InTouchContainer">
                 <div className="InTouch">
-                
                 <FontAwesomeIcon icon={faMapMarkerAlt} />
                 <p className="InTouchText">#123, 5th Avenue, 8th Main, opposite ABC Hotel</p>
                 </div>

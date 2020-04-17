@@ -1,25 +1,18 @@
-
-
 .HeaderContainer2 ul li{
     display:inline;
-    
-
 }
 .HeaderContainer2 ul li a{
     margin: 10%;
     text-align: center;
-   
-   font-size:100%;
+    font-size:100%;
     letter-spacing: 0px;
     color: rgba(69, 90, 100, 1);
     opacity: 1;
 }
-
 .HeaderBanner1{
-    width: 100%;
+     width: 100%;
      margin: auto; 
      background-color: white;
-  
 }
 .HeaderBanner2{
     width: 80%;
@@ -63,32 +56,7 @@
     padding-bottom: 20px;
     
 }
-.HeaderContainerIn1{
-  
-    margin-left:30%;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right:-15%;
-    background-color: white;
-   
-}
-.HeaderContainerIn2{
-   
-    margin-left:auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right:-15%;
-    background-color: white;
-  
-}
-.HeaderContainerIn3{
-    margin-left:auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right:auto ;
-    background-color: white;
-  
-}
+
 
 .HeaderContainer1  img{
     background-color: white;
@@ -98,3 +66,66 @@
     width:100%;  
     
 }
+
+
+nav[role="full-horizontal"] {
+    width: 100%;
+    margin-left: 10%;
+    ul {
+      > li {
+        float: left;   
+      }
+    }
+}
+
+@media screen and (max-width: 920px) { 
+    nav[role="full-horizontal"] {
+        width: 100%;
+     margin-right: 5%;
+margin-left: 10%;
+        ul {
+          > li {
+   
+          }
+        }
+    }
+    .HeaderBanner1{
+    width: 100%;
+    margin: auto;
+   
+}
+    .HeaderBanner2{
+    width: 90%;
+    margin: auto;
+  
+    }
+
+    .HeaderContainer{
+    width: 100%;
+    
+    }
+    .HeaderContainer1{
+    width: 50%;
+    }
+    .HeaderContainer2{
+    margin: auto;
+    font-size: 8px;
+    width: 50%;
+  
+  
+    }
+    .HeaderContainer2 ul li a{
+       
+        margin:3%
+     
+    }
+    .HeaderContainer1  img{
+        background-color: white;
+        margin-left: 0%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width:50%;  
+        
+    }
+  }
+  

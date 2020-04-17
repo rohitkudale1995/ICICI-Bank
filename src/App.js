@@ -1,24 +1,23 @@
-import React from 'react';
+import React, { Component }  from 'react';
 import './App.css'; 
-import PlatinumChip from './Components/PlatinumChip';
-import Header from './Components/Header';
-import ApplyNow from './Components/ApplyNow';
-import OurFeatures from './Components/OurFeatures';
-import HappyClient from './Components/HappyClient';
-import InTouch from './Components/InTouch';
-import Footer from './Components/Footer';
-function App() {
+
+import MainPage from './Components/MainPage';
+
+class App extends Component {
+constructor(props){
+super(props);
+}
+render(){
+  
+  var Url=window.location.href.split("?");
+  var Url2=Url[1].split("&");
+  var product=Url2[0].split("=");
+  var variant=Url2[1].split("=");
   return (
   <div>
-  <Header/>
-  <PlatinumChip/>
-  <ApplyNow/>
-  <OurFeatures/>
-  <HappyClient/>
-  <InTouch/>
-  <Footer/>
+   <MainPage product={product[1]} variant={variant[1]}></MainPage>
   </div>
   );
 }
-
+}
 export default App;

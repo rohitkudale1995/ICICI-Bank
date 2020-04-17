@@ -1,7 +1,6 @@
 import React from 'react';
 import '../assets/Css/PlatinumChip.scss'
 import Group2833 from '../assets/images/Group 2833.png'
-import Header from './Header'
 function PlatinumChip() {
     return (
         <div className="Banner">

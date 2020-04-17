@@ -11,12 +11,20 @@ function Header() {
               <img src={logo} />
           </div>
           <div className="HeaderContainer2">
-          <div className="HeaderContainerIn1"><a>Product</a></div>
-          <div className="HeaderContainerIn2"><a>Payments</a></div>
-          <div className="HeaderContainerIn3"><a>AboutUs</a></div>
+         
+          <nav role="full-horizontal">
+           <ul>
+          <li>
+        <li><a href="#">Product</a></li>
+        <li><a href="#">Payments</a></li>
+        <a href="#">AboutUs</a></li>
+       
+    </ul>
+</nav>
           </div>
         </div> 
         </div>
+     
       </div>
     );
   }

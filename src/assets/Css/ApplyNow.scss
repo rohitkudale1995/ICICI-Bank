@@ -24,3 +24,11 @@
     color: rgba(16, 29, 108, 1);
     opacity: 1;
 }
+
+@media screen and (max-width: 620px) { 
+    .ApplyNowBanner2{
+        width: 90%;
+        margin: auto;
+        background-color: white;
+    }
+}

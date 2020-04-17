@@ -78,7 +78,7 @@ text-align: center;
             text-align: center;
             font-weight: 500;
             font-size:18px;
-            padding: 1%;
+            padding: 2%;
             }
             .OurFeatures5{
                 background: rgba(255, 255, 255, 1);
@@ -129,4 +129,62 @@ text-align: center;
             color: rgba(96, 125, 139, 1);
             text-align: center;
             font-size:16px;
+        }
+
+        @media screen and (max-width: 620px) {
+            .OurFeaturesBanner2{
+                width: 90%;
+                margin: auto;
+                font-family:'roboto';
+                
+            }
+            .OurFeaturesContainer1{
+                width: 100%;
+               text-align: center;
+                margin-left:auto;
+                margin-top:auto;
+                margin-bottom: auto;
+                margin-right: auto;
+                display:inline;
+               
+                }
+                .OurFeaturesContainer2{
+                    width: 100%;
+                    margin-left:auto;
+                    margin-top: 5%;
+                    margin-bottom: auto;
+                    margin-right: auto;
+                    display:inline
+                    }
+                    .OurFeaturesBannerheading{
+                    padding-bottom: 5%;
+                    }
+                    .OurFeatures1{
+                        width: 100%;
+
+                    }
+                    .OurFeatures2{
+                        width: 100%;
+                    margin-left: 0%;
+                    margin-top: 5%;
+                    }
+                    .OurFeatures3{
+                        width: 100%;
+                    margin-left: 0%;
+                    margin-top: 5%;
+                    }
+                    .OurFeatures4{
+                        width: 100%;
+                    margin-left: 0%;
+                    margin-top: 5%;
+                margin-right: 0%;    
+                }
+                    .OurFeatures5{
+                        width: 100%;
+                    margin-left: 0%;
+                    margin-top: 5%;
+                margin-right: 0%;    
+                }
+
+
         }

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
 .Banner{
     width: 100%;
     background-color: rgba(249, 249, 252, 1);
@@ -23,7 +23,7 @@ display: flex;
         
         text-align: left;
          font-family:'roboto';
-        font-size: 40px;
+        font-size: 42px;
         font-weight:bolder;
         letter-spacing: 0px;
         color: rgba(41, 44, 69, 1);
@@ -44,12 +44,10 @@ display: flex;
 .Card2{
         width: 50%;
         margin: auto;
-        
         }
 
         .Card2 img {
-    display: block;
-    
+    height: 414px;
     width:100%;
     
       }
@@ -69,4 +67,46 @@ height: 42px;
 margin-top: 10%;
 margin-bottom: 0%;
 margin-right: 0%;
+}
+
+@media screen and (max-width: 620px) { 
+   
+    .Card{
+    width: 90%;
+    margin: auto;
+  display: block;
+    }
+    .Card2{
+        width: 100%;
+    margin: auto;
+    }
+    .Card1{
+        width: 100%;
+       margin: auto;
+     
+    }
+    .Card1text1{
+    font-size: 24px;
+    }
+
+    .Card2 img {
+        height:250;
+        width:100%;
+       
+          }
+          .Card1text2{
+            font-size: 16px;
+        }
+        .Card1{
+        button{
+            width: 116px;
+            height: 42px;
+
+            margin-top: 1%;
+            margin-bottom: 0%;
+            margin-right: 0%;
+            font-size: 16px;
+        }
+    }
+
 }

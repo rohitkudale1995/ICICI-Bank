@@ -1,0 +1,83 @@
+
+.PlatinumChipCardBanner{
+    width: 100%;
+    padding-top: 5%;
+    background-image: url('../images/Group\ 2919.png');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.PlatinumChipCardCard1{
+color: #FFFFFF;
+margin-left: auto;
+margin-bottom: auto;
+margin-right: auto;
+width: 80%;
+background:100%;
+}
+.PlatinumChipCardCardIn1{
+    text-align: center;
+    color: #FFFFFF;
+    width: 60%;
+    margin: auto;
+    background:100%;
+    margin-top: 5%;
+}
+    .PlatinumChipCardCard1text1{
+         font-family:'roboto';
+        font-size: 48px;
+        font-weight:bolder;
+        letter-spacing: 0px; 
+        opacity: 1;      
+    }
+    .PlatinumChipCardCard1text2{
+    font-family:'roboto';
+    font-size: 16px;
+    letter-spacing: 0px;
+    opacity: 1;    
+    }
+
+   
+  
+button{
+text-align: center;
+font-family:'roboto';
+font-size: 16px;
+letter-spacing: 0px;
+color: rgba(255, 255, 255, 1);
+background: rgba(243, 149, 28, 1);
+border-radius: 4px!important;
+opacity: 1;
+border:none;
+width: 116px;
+height: 42px;
+margin-top: 10%;
+margin-bottom: 0%;
+margin-right: 0%;
+}
+
+.PlatinumChipCardCard2{
+    margin-top: 5%;
+    color: #FFFFFF;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    width: 80%;
+    background:100%;
+    display: flex;
+    }
+.PlatinumChipCardCardIn2{
+    text-align: left;
+    color: #FFFFFF;
+    width: 60%;
+    margin: auto;
+    background:100%;
+    margin-top: 5%;
+    display: flex;
+}
+
+.PlatinumChipCardCardIn2 {
+    .svg-inline--fa{
+color: #F3951C;
+}
+}

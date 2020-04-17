@@ -69,3 +69,24 @@ text-align: center;
             text-align: center;
             font-size:16px;
         }
+
+        @media screen and (max-width: 620px) {
+        
+            .InTouchBanner2{
+                width: 90%;
+                margin: auto;
+                font-family:'roboto';
+            }
+            .InTouch{
+                width: 100%;
+            
+            }
+            .InTouchContainer{
+              
+                display:inline;
+                padding-top: 2%;
+                }
+                .InTouchText{
+                margin-top: 3%;
+                }
+        }
