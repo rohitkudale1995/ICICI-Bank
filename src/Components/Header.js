@@ -41,9 +41,9 @@ class Header extends Component {
           <Navbar>
           <NavDropdown title={this.symbol()} id="basic-nav-dropdown">
     <div  className="dropdown nav-item">
-        <NavDropdown.Item href="#action/3.1">Product</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">Payments</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">AboutUs</NavDropdown.Item>
+        <NavDropdown.Item href="">Product</NavDropdown.Item>
+        <NavDropdown.Item href="">Payments</NavDropdown.Item>
+        <NavDropdown.Item href="">AboutUs</NavDropdown.Item>
         </div>
         </NavDropdown>
 </Navbar>

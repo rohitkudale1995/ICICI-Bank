@@ -83,7 +83,17 @@ nav[role="full-horizontal"] {
 .HeaderContainer3{
     display: none!important;
 }
-@media screen and (max-width: 620px) { 
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 920px) { 
     .HeaderContainer2{
 display: none;
     }
@@ -91,14 +101,25 @@ display: none;
     width: 90%;
     }
     .HeaderContainer3{
-        float: right;
+      margin-right: 5%;
         display: inline!important;
         a{
          color: rgba(96, 125, 139, 1);
         }
+        a:hover{
+            color: rgba(96, 125, 139, 1);
+           }
         .dropdown-menu{
             width: 100px!important;
-
+min-width: 0%!important;
+        }
+        .dropdown-item{
+            padding: 0.5%;
+            font-size: 12px;
+           
+        }
+        .dropdown-toggle::after {
+            content: none;
         }
     }
   }
