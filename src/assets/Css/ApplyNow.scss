@@ -1,6 +1,6 @@
 .ApplyNowBanner1{
     width: 100%;
-    height: 780px;
+    // height: 780px;
     background-color: white;
     
 }
@@ -26,132 +26,224 @@
     background-color: white;
     margin-bottom: 5%  ;
 }
-    .lsq-form-name{
-    display: none!important;
-    border: none;
-    background-color: white;
+
+.application-form{
+    width: 60%;
+    margin: auto;
+    .lsq-form-header{
+        display: none !important;
     }
- .lsq-external-form-container .modal-header {
-display: none;
-border: none;
+    .mx-custom-tabs{
+        display: none !important;
     }
 
- .lsq-form-custom-tab-center-panel-wrapper{
-display: none;
-    }
- ul.lsq-form-custom-tab-center-panel-list.mx-custom.nav.nav-tabs.lsq-form-tabs-list {
-        display: none;
-    }
-.lsq-form-body-wrapper{
-    height: auto!important;
-    width: 80%!important;
-    margin: auto!important;
-    background-color: white!important;
-}
-.lsq-form-body-container .modal-body .no-padding  {
-    height: auto!important;
-    background-color: white;
-}
-
-.fullscreen
-{
-    background-color: white!important;
-    padding: 0%!important;}
-     .modal-v4
-{
-    background-color: white!important;
-    padding: 0%!important;
-} 
-    .modal-footer {
-background-color: white!important;
-padding: 0%!important;
-
-}
-    .accordion-heading {
-        .accordion-toggle {
-            display: none!important;
-         }
-        }
-
-        
-    .lsq-form-tabs-list {
-    background-color: white;
-    display: none;
-}
- .lsq-form-section-body{ 
-     width: 100%!important;
-    } 
- .lsq-form-field-item{
-      width: 100%!important;
-    }
-.lsq-form-two-col {
- margin: 2%!important;
-   width: 80%!important;
-   background-color: rgba(249, 249, 252, 1);
-   
-}
-.lsq-form-one-col {
-    margin: 2%!important;
-      width: 80%!important;
-      background-color: rgba(249, 249, 252, 1);
-      
-   }
- 
-
-
-   .mx-custom .tab-content
-   {
-    width: 80%!important;
-    margin: auto!important; 
-} 
-.lsq-form-tabs-content {
-width: 80%!important;
-margin: auto!important;   
-}
-
-.tab-content.mx-custom>.active {
-background-color: white;
-}
-.mx-custom.tab-content.lsq-form-tabs-content {
-background-color: white;
-}       
-.row-fluid {
-
-    } 
-    .lsq-form-section-body {
-    background-color: white;
-    }                      
-
-
-    
-    .lsq-form-section-container .lsq-form-section-body .lsq-form-field-wrapper{
-        padding-left: 0px;
-        background-color: white;
-        box-shadow: 0px 2px 8px #00000014;
-        margin: auto!important;
-        width: 80%!important;
-        height: auto!important;
-    }      
     .lsq-external-form-container .tab-content {
         overflow: visible !important;
       }
-      .lsq-external-form-container.modal-v4.fullscreen.external
-        .tab-content.mx-custom
-        > .active {
-        min-height: none !important;
+    .lsq-external-form-container.modal-v4.fullscreen.external
+    .tab-content.mx-custom
+    > .active {
+        min-height: none!important;
         max-height: none !important;
-      } 
-    
-      .tab-content
-      .mx-custom>
-      .active {
-          overflow-y: visible;
-    height: auto !important;  
     }
+    .tab-pane{
+        
+    }
+
+    // .tab-content{
+    //     box-shadow: 0px 2px 8px #00000014 !important;
+    // }
+    .fullscreen.modal-v4 .modal-footer{
+        background-color: transparent !important;
+        border: 0 !important;
+    }
+
+    .form-group.mx-custom-textfield{
+        border-radius: 3px;
+        background-color: #F9FAFB;
+        height: 56px;
+        border-radius: 3px;
+    }
+    .lsq-form-section-container .lsq-form-section-body .lsq-form-field-label{
+        color: #78909C !important;
+        font-size: 12px !important;
+    }
+    .form-group.mx-custom-textfield.mx-custom.lsq-form-field-form-group.lsq-form-label-top .mx-custom.form-control.lsq-form-field-ctrl-text.width-95{
+        height: 30px !important;
+    }
+
+    .lsq-form-field-wrapper{
+        box-shadow: 0px 2px 8px #00000014 !important;
+    }
+
+    .lsq-form-action-back{
+        display: none !important;
+    }
+
+    .lsq-form-tabs-accordion .accordion-heading .accordion-toggle{
+        font-size: 20px !important;
+        color: #455A64 !important;
+        font-weight: bold !important;
+        padding: 0px 0px 20px 0px !important;
+        i{
+            display: none;
+        }
+    }
+
+    .fullscreen.modal-v4 .modal-footer .btn-primary{
+        margin: 0 !important;
+        background-color: #F3951C !important;
+        font-size: 19px !important;
+        border-radius: 4px !important;
+        height: 40px !important;
+        &:hover{
+            background-color: #F3951C !important;
+        }
+    }
+
+    .lsq-form-section-container .lsq-form-section-body .lsq-form-field-wrapper{
+        padding: 30px !important; 
+    }
+    .modal-v4.fullscreen.external .modal-footer{
+        margin: 30px 0px 60px 0px;
+    }
+
+}
+//     .lsq-form-name{
+//     display: none!important;
+//     border: none;
+//     background-color: white;
+//     }
+//  .lsq-external-form-container .modal-header {
+// display: none;
+// border: none;
+//     }
+
+//  .lsq-form-custom-tab-center-panel-wrapper{
+// display: none;
+//     }
+//  ul.lsq-form-custom-tab-center-panel-list.mx-custom.nav.nav-tabs.lsq-form-tabs-list {
+//         display: none;
+//     }
+// .lsq-form-body-wrapper{
+//     height: auto!important;
+//     width: 80%!important;
+//     margin: auto!important;
+//     background-color: white!important;
+// }
+// .lsq-form-body-container .modal-body .no-padding  {
+//     height: auto!important;
+//     background-color: white;
+// }
+
+// .fullscreen
+// {
+//     background-color: white!important;
+//     padding: 0%!important;}
+//      .modal-v4
+// {
+//     background-color: white!important;
+//     padding: 0%!important;
+// } 
+//     .modal-footer {
+// background-color: white!important;
+// padding: 0%!important;
+
+// }
+//     .accordion-heading {
+//         .accordion-toggle {
+//             display: none!important;
+//          }
+//         }
+
+        
+//     .lsq-form-tabs-list {
+//     background-color: white;
+//     display: none;
+// }
+//  .lsq-form-section-body{ 
+//      width: 100%!important;
+//     } 
+//  .lsq-form-field-item{
+//       width: 100%!important;
+//     }
+// .lsq-form-two-col {
+//  margin: 2%!important;
+//    width: 80%!important;
+//    background-color: rgba(249, 249, 252, 1);
+   
+// }
+// .lsq-form-one-col {
+//     margin: 2%!important;
+//       width: 80%!important;
+//       background-color: rgba(249, 249, 252, 1);
+      
+//    }
+ 
+
+
+//    .mx-custom .tab-content
+//    {
+//     width: 80%!important;
+//     margin: auto!important; 
+// } 
+// .lsq-form-tabs-content {
+// width: 80%!important;
+// margin: auto!important;   
+// }
+
+// .tab-content.mx-custom>.active {
+// background-color: white;
+// }
+// .mx-custom.tab-content.lsq-form-tabs-content {
+// background-color: white;
+// }       
+// .row-fluid {
+
+//     } 
+//     .lsq-form-section-body {
+//     background-color: white;
+//     }                      
+
+
+    
+//     .lsq-form-section-container .lsq-form-section-body .lsq-form-field-wrapper{
+//         padding-left: 0px;
+//         background-color: white;
+//         box-shadow: 0px 2px 8px #00000014;
+//         margin: auto!important;
+//         width: 80%!important;
+//         height: auto!important;
+//     }      
+//     .lsq-external-form-container .tab-content {
+//         overflow: visible !important;
+//       }
+//       .lsq-external-form-container.modal-v4.fullscreen.external
+//         .tab-content.mx-custom
+//         > .active {
+//         min-height: none !important;
+//         max-height: none !important;
+//       } 
+    
+//       .tab-content
+//       .mx-custom>
+//       .active {
+//           overflow-y: visible !important;
+//     height: auto !important;  
+//     }
 @media screen and (max-width: 920px) { 
     .ApplyNowBanner2{
-        width: 90%;
+        width: 100%;
         margin: auto;
         background-color: white;
+    }
+    .application-form{
+        width: 100% !important;
+        .lsq-external-form-container .accordion-heading{
+            text-align: center !important;
+        }
+        .lsq-form-tabs-accordion .accordion-heading .accordion-toggle{
+            font-size: 16px !important;
+        }
     }
 }

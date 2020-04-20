@@ -6,10 +6,20 @@ class ApplyNow extends Component {
     super(props);
   }
 
+  loadOverrideCSS = () => {
+    this.lsqFormContainer.querySelector(".lsq-form-action-btn").textContent =
+      "Save & Next";
+  };
+
   componentDidMount() {
     window.lsq_setupForm({
       id: "1180e7df-7faa-11ea-b944-0ac1020b43f8",
     });
+
+    this.lsqFormContainer.addEventListener(
+      "lsqformloadcomplete",
+      this.loadOverrideCSS
+    );
   }
 
   //   utilityFunction = () => {
