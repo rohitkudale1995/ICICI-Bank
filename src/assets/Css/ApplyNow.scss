@@ -23,8 +23,131 @@
     letter-spacing: 0px;
     color: rgba(16, 29, 108, 1);
     opacity: 1;
+    background-color: white;
+    margin-bottom: 5%  ;
+}
+    .lsq-form-name{
+    display: none!important;
+    border: none;
+    background-color: white;
+    }
+ .lsq-external-form-container .modal-header {
+display: none;
+border: none;
+    }
+
+ .lsq-form-custom-tab-center-panel-wrapper{
+display: none;
+    }
+ ul.lsq-form-custom-tab-center-panel-list.mx-custom.nav.nav-tabs.lsq-form-tabs-list {
+        display: none;
+    }
+.lsq-form-body-wrapper{
+    height: auto!important;
+    width: 80%!important;
+    margin: auto!important;
+    background-color: white!important;
+}
+.lsq-form-body-container .modal-body .no-padding  {
+    height: auto!important;
+    background-color: white;
 }
 
+.fullscreen
+{
+    background-color: white!important;
+    padding: 0%!important;}
+     .modal-v4
+{
+    background-color: white!important;
+    padding: 0%!important;
+} 
+    .modal-footer {
+background-color: white!important;
+padding: 0%!important;
+
+}
+    .accordion-heading {
+        .accordion-toggle {
+            display: none!important;
+         }
+        }
+
+        
+    .lsq-form-tabs-list {
+    background-color: white;
+    display: none;
+}
+ .lsq-form-section-body{ 
+     width: 100%!important;
+    } 
+ .lsq-form-field-item{
+      width: 100%!important;
+    }
+.lsq-form-two-col {
+ margin: 2%!important;
+   width: 80%!important;
+   background-color: rgba(249, 249, 252, 1);
+   
+}
+.lsq-form-one-col {
+    margin: 2%!important;
+      width: 80%!important;
+      background-color: rgba(249, 249, 252, 1);
+      
+   }
+ 
+
+
+   .mx-custom .tab-content
+   {
+    width: 80%!important;
+    margin: auto!important; 
+} 
+.lsq-form-tabs-content {
+width: 80%!important;
+margin: auto!important;   
+}
+
+.tab-content.mx-custom>.active {
+background-color: white;
+}
+.mx-custom.tab-content.lsq-form-tabs-content {
+background-color: white;
+}       
+.row-fluid {
+
+    } 
+    .lsq-form-section-body {
+    background-color: white;
+    }                      
+
+
+    
+    .lsq-form-section-container .lsq-form-section-body .lsq-form-field-wrapper{
+        padding-left: 0px;
+        background-color: white;
+        box-shadow: 0px 2px 8px #00000014;
+        margin: auto!important;
+        width: 80%!important;
+        height: auto!important;
+    }      
+    .lsq-external-form-container .tab-content {
+        overflow: visible !important;
+      }
+      .lsq-external-form-container.modal-v4.fullscreen.external
+        .tab-content.mx-custom
+        > .active {
+        min-height: none !important;
+        max-height: none !important;
+      } 
+    
+      .tab-content
+      .mx-custom>
+      .active {
+          overflow-y: visible;
+    height: auto !important;  
+    }
 @media screen and (max-width: 920px) { 
     .ApplyNowBanner2{
         width: 90%;

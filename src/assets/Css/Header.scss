@@ -96,12 +96,14 @@ nav[role="full-horizontal"] {
 @media screen and (max-width: 920px) { 
     .HeaderContainer2{
 display: none;
+
     }
     .HeaderBanner2{
     width: 90%;
     }
     .HeaderContainer3{
-      margin-right: 5%;
+      margin-right: 0%;
+      background-color: white;
         display: inline!important;
         a{
          color: rgba(96, 125, 139, 1);
@@ -112,15 +114,20 @@ display: none;
         .dropdown-menu{
             width: 100px!important;
 min-width: 0%!important;
+left: -50px;
         }
         .dropdown-item{
             padding: 0.5%;
-            font-size: 12px;
-           
+            font-size: 18px;
+           text-align: center;
         }
         .dropdown-toggle::after {
             content: none;
         }
+       
+        .nav-link {
+background-color: white;
+        }
+
     }
   }
-  

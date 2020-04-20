@@ -11,21 +11,20 @@ class App extends Component {
       variant: "",
     };
   }
-
-  path() {
-    var pathName = window.location.href.toLowerCase();
-    var Url = pathName.split("?");
-    if (Url.length > 1) {
-      var Url2 = Url[1].split("&");
-      var v = Url2[1].split("=");
-      var p = Url2[0].split("=");
-      this.state.variant = v[1];
-      this.state.product = p[1];
-    }
+componentWillMount(){
+  var pathName = window.location.href.toLowerCase();
+  var url = pathName.split("?");
+  if (url.length > 1) {
+    var url2 = url[1].split("&");
+    var v = url2[1].split("=");
+    var p = url2[0].split("=");
+    this.setState({variant:v[1],product:p[1]})
+}
+ 
   }
 
   render() {
-    this.path();
+    
     return (
       <div>
         <MainPage

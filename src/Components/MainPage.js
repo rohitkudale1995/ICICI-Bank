@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import "../assets/Css/MainPage.scss";
 import SilverChip from "./SilverChip";
 import SilverChipCard from "./SilverChipCard";
 import PlatinumChip from "./PlatinumChip";
@@ -42,7 +42,7 @@ class MainPage extends Component {
   render() {
     console.log("props", this.props);
     return (
-      <div>
+      <div className="divClass">
         <Header />
         <this.card />
         <ApplyNow />
