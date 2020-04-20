@@ -1,6 +1,6 @@
 .ApplyNowBanner1{
     width: 100%;
-    height: 780px;
+  margin-bottom: 5%;
     background-color: white;
     
 }
@@ -86,13 +86,13 @@ padding: 0%!important;
     }
 .lsq-form-two-col {
  margin: 2%!important;
-   width: 80%!important;
+   width: 90%!important;
    background-color: rgba(249, 249, 252, 1);
    
 }
 .lsq-form-one-col {
     margin: 2%!important;
-      width: 80%!important;
+      width: 90%!important;
       background-color: rgba(249, 249, 252, 1);
       
    }
@@ -132,22 +132,30 @@ background-color: white;
         width: 80%!important;
         height: auto!important;
     }      
-    .lsq-external-form-container .tab-content {
-        overflow: visible !important;
-      }
-      .lsq-external-form-container.modal-v4.fullscreen.external
-        .tab-content.mx-custom
-        > .active {
-        min-height: none !important;
-        max-height: none !important;
-      } 
-    
-      .tab-content
-      .mx-custom>
-      .active {
-          overflow-y: visible;
-    height: auto !important;  
-    }
+   
+    .lsq-external-form-container{   max-height: auto!important;}
+    .modal-v4{   max-height: auto!important;}
+    .fullscreen{   max-height: auto!important;}
+    .external{   max-height: auto!important;}
+     .tab-content{ max-height: auto!important;}
+     .mx-custom>.active {
+    max-height: auto!important;
+}
+
+.fullscreen.modal-v4 .modal-footer {
+width: 50%!important;
+background-color: white!important!important;
+padding: 0%!important;
+margin: auto!important;
+border-top: none!important;
+padding: 0%!important;
+background: inherit !important;
+
+}
+.btn-primary{
+background-color: #F3951C!important;
+}
+
 @media screen and (max-width: 920px) { 
     .ApplyNowBanner2{
         width: 90%;
