@@ -93,7 +93,7 @@ class ApplyNow extends Component {
                 />
               </div>
             </div>
-          </div>):(<div className="SecondDiv"><h5>Form submitted successfully!!</h5></div>)}
+          </div>):(<div className="SecondDiv"><p>Congratulations</p><p>Form submitted successfully!!</p></div>)}
         </div>
       </div>
     );

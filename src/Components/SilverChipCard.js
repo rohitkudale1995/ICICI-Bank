@@ -12,7 +12,7 @@ function SilverChipCard() {
             ICICI Bank makes online payments safe and easy, with a new virtual
             card for each place you pay online.
           </p>
-          <button>Apply Now</button>
+          <a href="#apply">Apply Now</a>
         </div>
       </div>
     </div>
