@@ -58,6 +58,36 @@
         border: 0 !important;
     }
 
+    .mx-multi-step-form-progressbar{
+        display: none !important;
+    }
+
+    div[data-schemaname="mx_Declaration"]{
+        .form-group.mx-custom-textfield{
+            background-color: #fff !important;
+        }
+        .control-label{
+            overflow: unset !important;
+            white-space: unset !important;
+            font-size: 15px !important;
+        }
+    }
+
+    .mx-multi-step-form-step-number-info{
+        top: -675px !important;
+        display: block !important;
+        color: #455A64 !important;
+        z-index: 1 !important;
+        position: relative !important;
+        padding-right: 15px !important;
+        text-align: right !important;
+        font-size: 16px !important;
+    }
+
+    .lsq-form-section-body{
+        padding-right:10px !important;
+    }
+
     .form-group.mx-custom-textfield{
         border-radius: 3px;
         background-color: #F9FAFB;

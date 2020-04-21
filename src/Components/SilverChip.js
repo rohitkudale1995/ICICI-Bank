@@ -27,7 +27,7 @@ function SilverChip() {
           </p>
         </div>
         <div className="SilverChipCard12">
-          <button>Apply Now</button>
+          <a href="#apply">Apply Now</a>
         </div>
       </div>
     </div>

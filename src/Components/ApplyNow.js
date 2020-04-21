@@ -10,8 +10,8 @@ class ApplyNow extends Component {
   }
 
   loadOverrideCSS = () => {
-    this.lsqFormContainer.querySelector(".lsq-form-action-btn").textContent =
-      "Save & Next";
+    // this.lsqFormContainer.querySelector(".lsq-form-action-btn").textContent =
+    //   "Save & Next";
   };
   onLSQFormLoadError = e => {
     console.log("error")
@@ -60,7 +60,7 @@ class ApplyNow extends Component {
   //   };
   render() {
     return (
-      <div className="ApplyNowBanner1">
+      <div className="ApplyNowBanner1" id="apply">
         <div className="ApplyNowBanner2">
           <p className="ApplyNowBannerheading">Apply Now</p>
           {!this.state.flag?(
