@@ -4,15 +4,51 @@ import "../assets/Css/ApplyNow.scss";
 class ApplyNow extends Component {
   constructor(props) {
     super(props);
+    this.state={
+      flag:false
+    }
   }
+
+  loadOverrideCSS = () => {
+    this.lsqFormContainer.querySelector(".lsq-form-action-btn").textContent =
+      "Save & Next";
+  };
+  onLSQFormLoadError = e => {
+    console.log("error")
+  };
+
+  onLSQFormSubmissionSuccess = e => {
+  this.setState({flag:true});
+  };
+
+  onLSQFormSubmissionSuccessAtEachStep = e => {  
+  console.log (e.detail.data.Status);
+  };
 
   componentDidMount() {
     window.lsq_setupForm({
       id: "1180e7df-7faa-11ea-b944-0ac1020b43f8",
     });
 
-  
+    this.lsqFormContainer.addEventListener(
+      "lsqformsubmissionsuccess",
+      this.onLSQFormSubmissionSuccess
+    );
 
+    this.lsqFormContainer.addEventListener(
+      "lsqformloadcomplete",
+      this.loadOverrideCSS
+    );
+    
+    this.lsqFormContainer.addEventListener(
+      "LSQFormLoadError",
+      this.onLSQFormLoadError
+    );
+
+    this.lsqFormContainer.addEventListener(
+      "lsqformsubmissionsuccessateachstep",
+      this.onLSQFormSubmissionSuccessAtEachStep
+    );
   }
 
   //   utilityFunction = () => {
@@ -27,6 +63,7 @@ class ApplyNow extends Component {
       <div className="ApplyNowBanner1">
         <div className="ApplyNowBanner2">
           <p className="ApplyNowBannerheading">Apply Now</p>
+          {!this.state.flag?(
           <div className="application-form">
             <div
               id="lsq-form-modal"
@@ -56,7 +93,7 @@ class ApplyNow extends Component {
                 />
               </div>
             </div>
-          </div>
+          </div>):(<div className="SecondDiv"><h5>Form submitted successfully!!</h5></div>)}
         </div>
       </div>
     );
