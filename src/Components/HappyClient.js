@@ -15,7 +15,7 @@ function HappyClient() {
           <Carousel.Item>
             <div className="HappyClientContainer1">
               <div className="HappyClient1">
-                <img src={p1}></img>
+               <div className="imgtag"> <img src={p1}></img></div>
                 <div className="HappyClientBorder">
                   <p className="HappyClientText">
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
@@ -29,7 +29,7 @@ function HappyClient() {
                 <p className="HappyClientText1">CEO, GrayGrids</p>
               </div>
               <div className="HappyClient2">
-                <img src={p3}></img>
+              <div className="imgtag"> <img src={p2}></img></div>
                 <div className="HappyClientBorder">
                   <p className="HappyClientText">
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
@@ -43,7 +43,7 @@ function HappyClient() {
                 <p className="HappyClientText1">CEO, GrayGrids</p>
               </div>
               <div className="HappyClient3">
-                <img src={p4}></img>
+              <div className="imgtag"> <img src={p3}></img></div>
                 <div className="HappyClientBorder">
                   <p className="HappyClientText">
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
@@ -61,7 +61,7 @@ function HappyClient() {
           <Carousel.Item>
             <div className="HappyClientContainer1">
               <div className="HappyClient1">
-                <img src={p3}></img>
+              <div className="imgtag"> <img src={p5}></img></div>
                 <div className="HappyClientBorder">
                   <p className="HappyClientText">
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
@@ -75,7 +75,7 @@ function HappyClient() {
                 <p className="HappyClientText1">CEO, GrayGrids</p>
               </div>
               <div className="HappyClient2">
-                <img src={p1}></img>
+              <div className="imgtag"> <img src={p4}></img></div>
                 <div className="HappyClientBorder">
                   <p className="HappyClientText">
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
@@ -89,7 +89,7 @@ function HappyClient() {
                 <p className="HappyClientText1">CEO, GrayGrids</p>
               </div>
               <div className="HappyClient3">
-                <img src={p2}></img>
+              <div className="imgtag"> <img src={p3}></img></div>
                 <div className="HappyClientBorder">
                   <p className="HappyClientText">
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
@@ -107,7 +107,7 @@ function HappyClient() {
           <Carousel.Item>
             <div className="HappyClientContainer1">
               <div className="HappyClient1">
-                <img src={p2}></img>
+              <div className="imgtag"> <img src={p2}></img></div>
                 <div className="HappyClientBorder">
                   <p className="HappyClientText">
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
@@ -121,7 +121,7 @@ function HappyClient() {
                 <p className="HappyClientText1">CEO, GrayGrids</p>
               </div>
               <div className="HappyClient2">
-                <img src={p5}></img>
+              <div className="imgtag"> <img src={p4}></img></div>
                 <div className="HappyClientBorder">
                   <p className="HappyClientText">
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
@@ -135,7 +135,7 @@ function HappyClient() {
                 <p className="HappyClientText1">CEO, GrayGrids</p>
               </div>
               <div className="HappyClient3">
-                <img src={p3}></img>
+              <div className="imgtag"> <img src={p1}></img></div>
                 <div className="HappyClientBorder">
                   <p className="HappyClientText">
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit,

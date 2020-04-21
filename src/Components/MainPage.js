@@ -44,7 +44,7 @@ class MainPage extends Component {
     return (
       <div className="divClass">
         <Header />
-        <this.card />
+        {this.card()}
         <ApplyNow />
         <OurFeatures />
         <HappyClient />

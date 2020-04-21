@@ -10,6 +10,9 @@ class ApplyNow extends Component {
     window.lsq_setupForm({
       id: "1180e7df-7faa-11ea-b944-0ac1020b43f8",
     });
+
+  
+
   }
 
   //   utilityFunction = () => {

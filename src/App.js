@@ -29,8 +29,7 @@ componentWillMount(){
       <div>
         <MainPage
           product={this.state.product}
-          variant={this.state.variant}
-        ></MainPage>
+          variant={this.state.variant} />
       </div>
     );
   }
