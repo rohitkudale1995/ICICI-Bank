@@ -13,12 +13,26 @@ class App extends Component {
   }
 componentWillMount(){
   var pathName = window.location.href.toLowerCase();
+  var v=[];
+  var p=[];
   var url = pathName.split("?");
-  if (url.length > 1) {
+  if (url.length > 1)
+   {
     var url2 = url[1].split("&");
-    var v = url2[1].split("=");
-    var p = url2[0].split("=");
-    this.setState({variant:v[1],product:p[1]})
+    if(url2.length==1)
+    {
+      v.push("variant");
+      v.push("1");
+      p = url2[0].split("=");
+      this.setState({variant:v[1],product:p[1]})
+    }else
+
+    if(url2.length==2)
+    {
+      v = url2[1].split("=");
+      p = url2[0].split("=");
+     this.setState({variant:v[1],product:p[1]})
+      }
 }
  
   }

@@ -25,22 +25,16 @@ class MainPage extends Component {
       return <SilverChip />;
     } else if (this.state.variant === "2" && this.state.product === "silver") {
       return <SilverChipCard />;
-    } else if (
-      this.state.variant === "1" &&
-      this.state.product === "platinum"
-    ) {
+    } else if (this.state.variant === "1" && this.state.product === "platinum") {
       return <PlatinumChip />;
-    } else if (
-      this.state.variant === "2" &&
-      this.state.product === "platinum"
-    ) {
+    } else if ( this.state.variant === "2" && this.state.product === "platinum" ) {
       return <PlatinumChipCard />;
     } else {
-      return <PlatinumChipCard />;
+      return <PlatinumChip />;
     }
   };
   render() {
-    console.log("props", this.props);
+ 
     return (
       <div className="divClass">
         <Header />
